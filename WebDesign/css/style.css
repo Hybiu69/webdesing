@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f0f0;
+    
+}
+h1{
+    text-align: center;
+}
+header {
+    background: rgb(255, 85, 135);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sobre {
+    background: rgb(255, 85, 135);
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.portifolio {
+    background: rgb(255, 85, 135);
+    background: linear-gradient(180deg, rgba(255, 85, 135, 1) 0%,
+            rgba(255, 140, 195, 1) 50%, rgba(255, 155, 155, 1) 100%);
+
+}
+
+.projeto img {
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto
+}
+
+.contato {
+    background-color: rgb(255, 155, 155);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 155, 155);
+    background: linear-gradient(180deg, rgba(255, 155, 155, 1) 0%,
+    rgba(255, 155, 155, 1) 60%,rgba(255,117,254,1) 100%);
+    color: white;
+    font-size: 15px;
+    padding: 1px;
+}
